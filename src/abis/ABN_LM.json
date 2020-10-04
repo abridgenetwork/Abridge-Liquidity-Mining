@@ -1,0 +1,252 @@
+{
+  "contractName": "ABN_LM",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/murugan/Abridge_LM/src/contracts/ABN_LM.sol\":\"ABN_LM\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/murugan/Abridge_LM/src/contracts/ABN_LM.sol\":{\"keccak256\":\"0x683324dbb3f62fada01e2de83ec006432d6ba80045f093ad96e74aa916a9de4b\",\"urls\":[\"bzz-raw://4a42a54b7fe2f5b58c018d7f2f164aba3adae96005352c24223d77eadf0c42fd\",\"dweb:/ipfs/QmfVmN7zQrGeTmLuJCMJffVXtQKzUsV4yD5TmD5RmfLwjW\"]},\"/Users/murugan/Abridge_LM/src/contracts/AbridgeLM.sol\":{\"keccak256\":\"0x2a2c94208bb48c3033533ba20356c9bd3c36b282a0fdb82253b8cd63b353eae1\",\"urls\":[\"bzz-raw://8aae32745fd015ba9fec0d6fb1902f721142803e46aab18e1cbbb57378dd10e5\",\"dweb:/ipfs/QmcafuDW4hf2BKypHjEDLtdpdzgttneLyvbtfdBF7Ro8S5\"]},\"/Users/murugan/Abridge_LM/src/contracts/EthereumLM.sol\":{\"keccak256\":\"0x147677d7fc28f7be0f234613f363902fdb7701476c4d55bd1a431925e5eec0ac\",\"urls\":[\"bzz-raw://4c8c7b34c4706f9d9a01dcd240ff0f316ba33f70a42bf28d9189d3ceec91c34e\",\"dweb:/ipfs/QmUTJ4ZHnnhtTRoPDkcYKoQ6wcUhzRY5uJXJh2Y9TEiRCd\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280601881526020017f41627269646765204c6971756964697479204d696e696e6700000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b610186806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820f461320fb86dd911a980346dbae973f1f92128c56454baeb1ea5ddc9ca4be87064736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820f461320fb86dd911a980346dbae973f1f92128c56454baeb1ea5ddc9ca4be87064736f6c63430005100032",
+  "sourceMap": "79:75:0:-;;;102:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;79:75;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:75:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "79:75:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:75:0;;;;;;;;;;;;;;;;;;;102:47;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;102:47:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"./AbridgeLM.sol\";\nimport \"./EthereumLM.sol\";\n\ncontract ABN_LM {\n\tstring public name = \"Abridge Liquidity Mining\";\n\t\n}\n",
+  "sourcePath": "/Users/murugan/Abridge_LM/src/contracts/ABN_LM.sol",
+  "ast": {
+    "absolutePath": "/Users/murugan/Abridge_LM/src/contracts/ABN_LM.sol",
+    "exportedSymbols": {
+      "ABN_LM": [
+        7
+      ]
+    },
+    "id": 8,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "absolutePath": "/Users/murugan/Abridge_LM/src/contracts/AbridgeLM.sol",
+        "file": "./AbridgeLM.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 8,
+        "sourceUnit": 189,
+        "src": "25:25:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Users/murugan/Abridge_LM/src/contracts/EthereumLM.sol",
+        "file": "./EthereumLM.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 8,
+        "sourceUnit": 370,
+        "src": "51:26:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 7,
+        "linearizedBaseContracts": [
+          7
+        ],
+        "name": "ABN_LM",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 6,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 7,
+            "src": "102:47:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 4,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "102:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "41627269646765204c6971756964697479204d696e696e67",
+              "id": 5,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "123:26:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_99ab182056d1a26235ffe353609491a25b883001810bac990ae7c071a9640a07",
+                "typeString": "literal_string \"Abridge Liquidity Mining\""
+              },
+              "value": "Abridge Liquidity Mining"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 8,
+        "src": "79:75:0"
+      }
+    ],
+    "src": "0:155:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/murugan/Abridge_LM/src/contracts/ABN_LM.sol",
+    "exportedSymbols": {
+      "ABN_LM": [
+        7
+      ]
+    },
+    "id": 8,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "absolutePath": "/Users/murugan/Abridge_LM/src/contracts/AbridgeLM.sol",
+        "file": "./AbridgeLM.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 8,
+        "sourceUnit": 189,
+        "src": "25:25:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Users/murugan/Abridge_LM/src/contracts/EthereumLM.sol",
+        "file": "./EthereumLM.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 8,
+        "sourceUnit": 370,
+        "src": "51:26:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 7,
+        "linearizedBaseContracts": [
+          7
+        ],
+        "name": "ABN_LM",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 6,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 7,
+            "src": "102:47:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 4,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "102:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "41627269646765204c6971756964697479204d696e696e67",
+              "id": 5,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "123:26:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_99ab182056d1a26235ffe353609491a25b883001810bac990ae7c071a9640a07",
+                "typeString": "literal_string \"Abridge Liquidity Mining\""
+              },
+              "value": "Abridge Liquidity Mining"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 8,
+        "src": "79:75:0"
+      }
+    ],
+    "src": "0:155:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2020-10-04T12:27:10.622Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
